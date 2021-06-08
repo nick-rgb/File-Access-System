@@ -1,11 +1,14 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <title>@RESERVE</title>
-   <link rel="stylesheet" href="{%  static 'style.css'  %}">
+   <title>RESERVE</title>
+   <link rel="stylesheet"  href="{% static 'style.css' %}">
    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> 
+   <link rel="icon" href= "favicon.jpg">
+
 </head>
 
 <body>
@@ -14,10 +17,10 @@
 
 <nav>
     <div class= "logo"><h1 class="animated infinite jackInTheBox">RESERVE</h1></div>
-    <div class= "menu">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+    <div class= "menu" >
+        <a href="#" id="menuhover" style="color:rgba(0, 0, 0, 0.884);">Home</a>
+        <a href="#" id="me" >About</a>
+        <a href="#" id="my">Contact</a>
     </div>
 </nav>
 
@@ -27,7 +30,7 @@
             <h1>RESERVE YOUR DOING <span class="change_content"> </span></h1>
             <p>"Store More And No Worry For Spacing"</p>
             <a href="#" class="btnone">Learn More</a>
-            <a href="#" class="btntwo">NEXT MOVE -></a>
+            <a href="next" class="btntwo">NEXT MOVE -></a>
         </section>
      </main>
     
